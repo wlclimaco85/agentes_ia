@@ -1,0 +1,4 @@
+interface:
+  display_name: "opencode GSD Workflow"
+  short_description: "Focused delivery loop: clarify, plan, execute, verify, report."
+  default_prompt: "Use a goal-driven workflow: clarify outcome, plan minimal scope, execute decisively, verify result, report concisely."
