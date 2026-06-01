@@ -205,15 +205,19 @@ SCREENS = {
 
 ## 🗂️ Codex Agents (OpenAI)
 
-Definições TOML para Codex/OpenAI API:
+Definições TOML para Codex/OpenAI API — **45 agentes para Dhara, 53 para App Academia**.
 
-| Agente | Arquivo |
-|--------|---------|
-| `dhara-sankhya-addon-dev` | `codex-agents/dhara-sankhya-addon-dev.toml` |
-| `dhara-db-dictionary` | `codex-agents/dhara-db-dictionary.toml` |
-| `dhara-java-backend` | `codex-agents/dhara-java-backend.toml` |
-| `dhara-html5-frontend` | `codex-agents/dhara-html5-frontend.toml` |
-| `dhara-environment-intellij` | `codex-agents/dhara-environment-intellij.toml` |
+Formato de cada arquivo:
+```toml
+description = "Descrição curta do agente"
+developer_instructions = '''
+# Nome do Agente
+Conteúdo completo extraído do Claude Code .md correspondente
+'''
+name = "nome-do-agente"
+```
+
+Agentes disponíveis em `codex-agents/dhara-pecuaria/` e `codex-agents/app-academia/`.
 
 ---
 
@@ -259,8 +263,8 @@ cp claude-code-agents/app-academia/*.md SEU_PROJETO/.claude/agents/
 ### OpenCode — Qualquer Projeto
 
 ```bash
-# Copiar a skill
-cp -r opencode-skills/sankhya/sankhya-addon-dev SEU_PROJETO/.agents/skills/
+# Copiar a skill desejada (100 disponíveis em opencode-skills/)
+cp -r opencode-skills/dhara-pecuaria/sankhya-addon-dev SEU_PROJETO/.agents/skills/
 
 # Registrar no config
 # .opencode/config.json → "skills": ["sankhya-addon-dev"]
@@ -293,12 +297,43 @@ PASSO N: context-manager → gravar decisões e resultados
 
 ## 📊 Estatísticas
 
-| Categoria | Dhara Pecuária | App Academia | Total |
-|-----------|---------------|--------------|-------|
-| Claude Code Agents | 44 | 49 | **93** |
-| OpenCode Skills | 8 (sankhya) | 10 (app+metod.) | + 8 metod. + 6 ui-ux |
-| Codex Agents | 5 | — | **5** |
-| MCP Servers | 1 | — | **1** |
+> Regra: todo agente deve existir nos **3 formatos** simultaneamente.
+> Claude Code `.md` é a fonte de verdade → OpenCode `SKILL.md` e Codex `.toml` são derivados.
+
+| Formato | Dhara Pecuária | App Academia | Total |
+|---------|---------------|--------------|-------|
+| **Claude Code** (`.md`) | 45 | 53 | **98** |
+| **OpenCode** (`SKILL.md`) | 45 | 55 | **100** |
+| **Codex** (`.toml`) | 45 | 53 | **98** |
+| **MCP Servers** | 1 | — | **1** |
+
+### Distribuição por categoria — Dhara Pecuária (45 agentes)
+
+| Categoria | Agentes |
+|-----------|---------|
+| Especialistas do Addon Sankhya | 7 (dhara-*, orchestrator, selenium) |
+| Contexto e Memória | 1 (context-manager) |
+| Pesquisa e Análise | 10 (gsd-*-researcher, technical-researcher) |
+| Planejamento | 7 (gsd-planner, gsd-plan-checker, gsd-roadmapper, ...) |
+| Implementação | 3 (gsd-executor, gsd-integration-checker, test-automator) |
+| Review e Qualidade | 10 (code-reviewer, gsd-code-reviewer, gsd-security-auditor, ...) |
+| Debug | 3 (debugger, gsd-debugger, gsd-debug-session-manager) |
+| Documentação | 4 (gsd-doc-*) |
+| UI/UX | 1 (gsd-ui-researcher) |
+| **Total** | **45** |
+
+### Distribuição por categoria — App Academia (53 agentes)
+
+| Categoria | Agentes |
+|-----------|---------|
+| Especialistas do Projeto | 9 (architect, backend-spring, frontend-flutter, product-owner, qa, ...) |
+| Contexto e Memória | 1 (context-manager) |
+| GSD (todos os grupos) | 35 (gsd-*) |
+| Utilitários | 4 (code-reviewer, debugger, technical-researcher, test-automator) |
+| UI/UX | 2 (gsd-ui-researcher, ui-ux-pro-max) |
+| Orchestrator | 1 (app-academia-orchestrator) |
+| Selenium | 1 (app-academia-selenium-visual-tester) |
+| **Total** | **53** |
 
 ---
 
