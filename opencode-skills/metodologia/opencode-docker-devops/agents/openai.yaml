@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docker & WSL2 DevOps"
+  short_description: "Configura Docker Engine nativo no WSL2, Docker Compose, redes, volumes e boas praticas DevOps."
+  default_prompt: "Use esta skill para configurar, diagnosticar ou automatizar ambientes Docker em Windows + WSL2, incluindo instalacao do Docker Engine, docker-compose, multi-stage builds e integracao com projetos locais."
