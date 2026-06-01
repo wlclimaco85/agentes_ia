@@ -1,4 +1,0 @@
-interface:
-  display_name: "opencode Superpowers Method"
-  short_description: "Spec-first, test-aware engineering: discover, plan, execute, validate, review."
-  default_prompt: "Apply disciplined engineering: read the system first, specify the change, plan, execute scoped edits, validate, then review the full diff."

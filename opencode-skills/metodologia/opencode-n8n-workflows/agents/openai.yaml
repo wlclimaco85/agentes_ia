@@ -1,4 +1,0 @@
-interface:
-  display_name: "opencode n8n Workflows"
-  short_description: "Design and validate n8n automations with MCP-aware safety guardrails."
-  default_prompt: "Work with this n8n workflow safely: design trigger-to-side-effect flow, validate node properties, add error handling, and keep credentials out of files."

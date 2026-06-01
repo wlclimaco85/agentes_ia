@@ -1,4 +1,0 @@
-interface:
-  display_name: "Sankhya DB e Dicionario"
-  short_description: "Modela dicionario de dados e dbscripts Sankhya."
-  default_prompt: "Use esta skill para criar, revisar e corrigir datadictionary e dbscripts de ADDs Sankhya."

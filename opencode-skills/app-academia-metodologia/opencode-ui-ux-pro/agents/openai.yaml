@@ -1,4 +1,0 @@
-interface:
-  display_name: "opencode UI UX Pro"
-  short_description: "Product-grade UI/UX: hierarchy, accessibility, visual QA, responsive."
-  default_prompt: "Apply UI/UX heuristics: match product type, check hierarchy and contrast, verify empty/error states, validate accessibility, and test responsively."

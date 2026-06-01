@@ -1,4 +1,0 @@
-interface:
-  display_name: "Sankhya ADD Dev"
-  short_description: "Cria e evolui ADDs Sankhya na workspace Dhara."
-  default_prompt: "Use esta skill para implementar, revisar e diagnosticar add-ons Sankhya nesta workspace."

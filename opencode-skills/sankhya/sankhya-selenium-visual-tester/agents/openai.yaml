@@ -1,7 +1,0 @@
-interface:
-  display_name: "Sankhya Selenium Visual Tester"
-  short_description: "Selenium visual UI testing"
-  default_prompt: "Use $sankhya-selenium-visual-tester para criar ou revisar testes Selenium com screenshots e regressao visual."
-
-policy:
-  allow_implicit_invocation: true

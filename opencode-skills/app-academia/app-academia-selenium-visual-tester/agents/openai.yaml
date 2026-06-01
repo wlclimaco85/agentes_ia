@@ -1,7 +1,0 @@
-interface:
-  display_name: "AppAcademia Selenium Visual Tester"
-  short_description: "Selenium visual UI testing para Flutter web do AppAcademia."
-  default_prompt: "Use $app-academia-selenium-visual-tester para criar ou revisar testes Selenium com screenshots e regressao visual nos projetos Flutter do AppAcademia."
-
-policy:
-  allow_implicit_invocation: true

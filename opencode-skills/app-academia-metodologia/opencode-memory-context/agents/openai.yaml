@@ -1,4 +1,0 @@
-interface:
-  display_name: "opencode Memory Context"
-  short_description: "Capture and reuse durable project context across opencode sessions."
-  default_prompt: "Use durable context notes to preserve decisions, constraints, validated commands, and next actions across sessions."

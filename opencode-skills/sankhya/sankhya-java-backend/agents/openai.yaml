@@ -1,4 +1,0 @@
-interface:
-  display_name: "Sankhya Java Backend"
-  short_description: "Implementa services, actions, regras e jobs Sankhya."
-  default_prompt: "Use esta skill para backend Java de ADDs Sankhya, incluindo services, action buttons, regras, listeners, jobs e repositories."

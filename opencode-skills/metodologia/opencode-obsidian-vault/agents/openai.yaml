@@ -1,4 +1,0 @@
-interface:
-  display_name: "opencode Obsidian Vault"
-  short_description: "Obsidian-aware Markdown editing: wikilinks, properties, callouts, canvas."
-  default_prompt: "Work with this Obsidian vault file: preserve wikilinks, frontmatter, and plugin metadata. Do not rename or delete without explicit instruction."

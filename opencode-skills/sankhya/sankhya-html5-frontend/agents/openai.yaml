@@ -1,4 +1,0 @@
-interface:
-  display_name: "Sankhya HTML5 Frontend"
-  short_description: "Cria telas HTML5/SankhyaJS para ADDs."
-  default_prompt: "Use esta skill para telas HTML5, SankhyaJS e integracoes front-end de ADDs Sankhya."

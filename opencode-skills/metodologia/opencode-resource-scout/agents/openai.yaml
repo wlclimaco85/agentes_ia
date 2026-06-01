@@ -1,4 +1,0 @@
-interface:
-  display_name: "opencode Resource Scout"
-  short_description: "Evaluate and adapt ecosystem resources for your project."
-  default_prompt: "Evaluate this resource: check license, separate concept from harness, map paths to project conventions, and rate compatibility."
