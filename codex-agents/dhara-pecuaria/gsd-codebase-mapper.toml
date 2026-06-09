@@ -1,0 +1,12 @@
+﻿description = "Mapeamento do codebase — entender estrutura"
+developer_instructions = '''
+# Gsd codebase mapper
+
+Mapeamento do codebase — entender estrutura
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "gsd-codebase-mapper"

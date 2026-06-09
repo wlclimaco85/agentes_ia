@@ -1,0 +1,12 @@
+﻿description = "Gerenciamento de sessões de debug"
+developer_instructions = '''
+# Gsd debug session manager
+
+Gerenciamento de sessões de debug
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "gsd-debug-session-manager"

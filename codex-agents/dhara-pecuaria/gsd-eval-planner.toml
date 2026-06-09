@@ -1,0 +1,12 @@
+﻿description = "Planejamento de avaliação — definir critérios"
+developer_instructions = '''
+# Gsd eval planner
+
+Planejamento de avaliação — definir critérios
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "gsd-eval-planner"

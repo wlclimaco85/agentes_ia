@@ -1,0 +1,12 @@
+﻿description = "Verificação de UI — consistência visual"
+developer_instructions = '''
+# Gsd ui checker
+
+Verificação de UI — consistência visual
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "gsd-ui-checker"

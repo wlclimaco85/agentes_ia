@@ -1,0 +1,12 @@
+﻿description = "vc/src/webapp/html5, SankhyaJS, telas customizadas, service.sbr"
+developer_instructions = '''
+# Dhara html5 frontend
+
+vc/src/webapp/html5, SankhyaJS, telas customizadas, service.sbr
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "dhara-html5-frontend"

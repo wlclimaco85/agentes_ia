@@ -1,0 +1,12 @@
+﻿description = "Análise de assumptions — validar premissas"
+developer_instructions = '''
+# Gsd assumptions analyzer
+
+Análise de assumptions — validar premissas
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "gsd-assumptions-analyzer"

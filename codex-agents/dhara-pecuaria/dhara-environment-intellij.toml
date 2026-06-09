@@ -1,0 +1,12 @@
+﻿description = "IntelliJ, JDK 8, Gradle, WildFly, Docker, debug, variáveis"
+developer_instructions = '''
+# Dhara environment intellij
+
+IntelliJ, JDK 8, Gradle, WildFly, Docker, debug, variáveis
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "dhara-environment-intellij"

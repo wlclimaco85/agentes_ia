@@ -1,0 +1,12 @@
+﻿description = "Atualização de inteligência — informações atualizadas"
+developer_instructions = '''
+# Gsd intel updater
+
+Atualização de inteligência — informações atualizadas
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "gsd-intel-updater"

@@ -1,0 +1,12 @@
+﻿description = "Pesquisa de fase — etapa atual do projeto"
+developer_instructions = '''
+# Gsd phase researcher
+
+Pesquisa de fase — etapa atual do projeto
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "gsd-phase-researcher"

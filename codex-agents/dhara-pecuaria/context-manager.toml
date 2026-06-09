@@ -1,0 +1,12 @@
+﻿description = "Obrigatório início/fim — carrega e grava contexto do projeto"
+developer_instructions = '''
+# Context manager
+
+Obrigatório início/fim — carrega e grava contexto do projeto
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "context-manager"

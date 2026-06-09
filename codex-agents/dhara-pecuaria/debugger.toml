@@ -1,0 +1,12 @@
+﻿description = "Diagnóstico e resolução de bugs"
+developer_instructions = '''
+# Debugger
+
+Diagnóstico e resolução de bugs
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "debugger"

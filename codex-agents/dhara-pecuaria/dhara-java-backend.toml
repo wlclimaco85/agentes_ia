@@ -1,0 +1,12 @@
+﻿description = "model/src/main/java, handlers, services, actions, listeners, buttons, JAPE"
+developer_instructions = '''
+# Dhara java backend
+
+model/src/main/java, handlers, services, actions, listeners, buttons, JAPE
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "dhara-java-backend"

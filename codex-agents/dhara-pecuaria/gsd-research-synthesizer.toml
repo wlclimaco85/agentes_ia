@@ -1,0 +1,12 @@
+﻿description = "Síntese de pesquisa — consolidar descobertas"
+developer_instructions = '''
+# Gsd research synthesizer
+
+Síntese de pesquisa — consolidar descobertas
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "gsd-research-synthesizer"

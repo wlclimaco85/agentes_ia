@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ambiente Sankhya IntelliJ"
+  short_description: "Configura IntelliJ, Gradle, JDK 8, WildFly e Docker."
+  default_prompt: "Use esta skill para preparar, diagnosticar e documentar o ambiente local de desenvolvimento Sankhya na workspace Dhara."

@@ -1,0 +1,12 @@
+﻿description = "Seleção de frameworks — escolher tecnologias"
+developer_instructions = '''
+# Gsd framework selector
+
+Seleção de frameworks — escolher tecnologias
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "gsd-framework-selector"

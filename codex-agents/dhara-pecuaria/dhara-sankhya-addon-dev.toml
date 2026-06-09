@@ -1,0 +1,12 @@
+﻿description = "Arquitetura geral do addon Sankhya, Gradle, Add-on Studio SDK 2+, deploy"
+developer_instructions = '''
+# Dhara sankhya addon dev
+
+Arquitetura geral do addon Sankhya, Gradle, Add-on Studio SDK 2+, deploy
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "dhara-sankhya-addon-dev"

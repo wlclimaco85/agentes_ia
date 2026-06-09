@@ -1,0 +1,12 @@
+﻿description = "Verificação final — validar entrega completa"
+developer_instructions = '''
+# Gsd verifier
+
+Verificação final — validar entrega completa
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "gsd-verifier"

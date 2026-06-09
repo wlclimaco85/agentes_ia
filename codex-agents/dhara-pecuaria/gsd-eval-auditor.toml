@@ -1,0 +1,12 @@
+﻿description = "Auditoria de avaliação — validar resultados"
+developer_instructions = '''
+# Gsd eval auditor
+
+Auditoria de avaliação — validar resultados
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "gsd-eval-auditor"

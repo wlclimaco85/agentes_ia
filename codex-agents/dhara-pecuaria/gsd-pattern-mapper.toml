@@ -1,0 +1,12 @@
+﻿description = "Mapeamento de padrões — identificar padrões"
+developer_instructions = '''
+# Gsd pattern mapper
+
+Mapeamento de padrões — identificar padrões
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "gsd-pattern-mapper"
