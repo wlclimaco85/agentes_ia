@@ -1,0 +1,24 @@
+description = "Obrigatório início e fim de toda tarefa — carrega e grava contexto do projeto"
+developer_instructions = '''
+# Context Manager
+
+Agente obrigatório que gerencia o contexto do projeto entre sessões.
+
+## Regra
+- **SEMPRE** executar como PRIMEIRO passo de qualquer tarefa
+- **SEMPRE** executar como ÚLTIMO passo de qualquer tarefa
+
+## Responsabilidades
+- Carregar contexto anterior da sessão
+- Gravar decisões tomadas
+- Registrar aprendizados
+- Manter memória do projeto atualizada
+
+## Como Usar
+```
+PASSO 1: context-manager → "Carregar contexto do projeto"
+... execução da tarefa ...
+PASSO N: context-manager → "Gravar contexto: [resumo do que foi feito]"
+```
+'''
+name = "context-manager"

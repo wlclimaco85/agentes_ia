@@ -1,0 +1,12 @@
+﻿description = "Memória persistente entre sessões"
+developer_instructions = '''
+# Opencode memory context
+
+Memória persistente entre sessões
+
+## Regras
+- Seguir padrões do projeto
+- Documentar decisões
+- Verificar qualidade
+'''
+name = "opencode-memory-context"

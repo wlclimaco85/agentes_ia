@@ -34,5 +34,5 @@ PASSO N: context-manager → gravar decisões
 - gsd-verifier — Verificação final
 - code-reviewer — Review de código
 - debugger — Diagnóstico de bugs
-- 	echnical-researcher — Pesquisa técnica
-- 	est-automator — Automação de testes
+- technical-researcher — Pesquisa técnica
+- test-automator — Automação de testes

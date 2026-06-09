@@ -1,0 +1,13 @@
+description = "Análise de assumptions — validar premissas"
+developer_instructions = '''
+# GSD Assumptions Analyzer
+
+Analisa e valida premissas do projeto.
+
+## Responsabilidades
+- Listar premissas identificadas
+- Validar cada premissa
+- Identificar riscos de premissas erradas
+- Documentar validação
+'''
+name = "gsd-assumptions-analyzer"
