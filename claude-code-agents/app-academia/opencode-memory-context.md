@@ -50,3 +50,15 @@ Suporte de memória persistente entre sessões de desenvolvimento.
 - Sessões longas de desenvolvimento
 - Projetos com muitas decisões técnicas
 - Quando o contexto precisa persistir entre REPLs
+
+## Registro de fechamento
+
+- História Trello `6a3af408fac48e1622611d92` concluída com `Done 5/5`.
+- `Calendário Financeiro` agora expõe metadados PDF via `CalendarioFinanceiroItemProjection` sem carregar `BLOB`.
+- DTO atualizado com `fileId`, `fileName`, `fileType` e `anexoPdf`.
+- Flutter nos dois apps usa `Baixar conta` para `ABERTA` e `attach_file` apenas para PDF via `ApiLinks.downloadFile`.
+- Validações registradas: Maven específico `2/2`, `flutter analyze` nos dois apps, testes focados `45/45` e `34/34`, build web e QA/code review aprovados.
+- Suites completas Flutter ainda têm falhas preexistentes de integração.
+- Backend ativo em `9001`; build web estático de validação em `9011`.
+- Card Trello `6a3b0171fe9e9ffd57e3060c` atualizado para `Modernizar Configuração do Sistema > Dados de Teste (Mock)`, movido para `Em desenvolvimento` e com labels `Backend`, `Feature` e `QA`.
+- URL do card: `https://trello.com/c/zjyMLXsg`.
